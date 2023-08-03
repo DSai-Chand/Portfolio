@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="icon" href="./netflix.png">
+    <style>
+        * {
+            margin: 0px;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        body {
+            background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.367), rgba(0, 0, 0, 0.9)), url(https://miro.medium.com/max/1400/1*5lyavS59mazOFnb55Z6znQ.png);
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-color: #30303088;
+            
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .im1 {
+            display: flex;
+            justify-content: space-between;
+            padding: 30px 60px;
+        }
+
+        .btn {
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: red;
+            color: white;
+            height: 40px;
+            width: 85px;
+        }
+
+        .sel {
+            background-color: rgba(0, 0, 0, 0);
+            color: white;
+            padding: 10px;
+            border: 1.5px solid white;
+            border-radius: 5px;
+            margin-right: 20px;
+        }
+
+        .sel option {
+            background-color: gray;
+        }
+
+        .tex {
+            color: white;
+            font-size: 20px;
+            margin-top: 100px;
+            text-align: center;
+        }
+
+        .tex h1 {
+            font-size: 60px;
+
+        }
+
+        .emg {
+            text-align: center;
+            margin-top: 20px;
+            /* margin-bottom: 30px; */
+            display: flex;
+            justify-content: center;
+        }
+
+        .bt {
+            background-color: red;
+            color: white;
+            border: none;
+            margin-top: 0px;
+            height: 49px;
+            padding-top: 20px;
+            width: 200px;
+            font-size: 25px;
+
+
+        }
+
+        .add {
+            padding: 20px;
+            height: 29px;
+            width: 400px;
+            border: none;
+        }
+
+        .div1 {
+
+            display: flex;
+            justify-content: space-around;
+            margin-top: 176px;
+            background-color: #000000;
+            color: white;
+            font-size: 30px;
+
+        }
+
+        .div2 {
+            margin-top: 70px;
+        }
+
+        .div3 {
+            position: relative;
+            height: 400px;
+        }
+
+        .div3 img {
+            position: absolute;
+            left: -300px;
+            z-index: 1;
+        }
+
+        .di {
+            height: 190px;
+            position: absolute;
+            top: 73px;
+            left: -238px;
+            z-index: 0;
+        }
+
+        .div4 {
+            margin-top: 10px;
+            display: flex;
+            justify-content: space-around;
+            color: white;
+            background-color: #000000;
+        }
+
+        .div5 {
+            margin-top: 150px;
+            font-size: 30px;
+        }
+
+        .div6 {
+            margin-top: 10px;
+            display: flex;
+            justify-content: space-around;
+            color: white;
+            background-color: #000000;
+            padding-top: 60px;
+            position: relative;
+            height: 430px;
+        }
+        .img3{
+            position: absolute;
+            right: 100px;
+            z-index: 1;
+        }
+        .di2 {
+            height: 180px;
+            position: absolute;
+            top: 94px;
+            left: 690px;
+            z-index: 0;
+        }
+
+        .div7 {
+            margin-top: 120px;
+            font-size: 25px;
+        }
+        .text{
+            margin-right: 360px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="im1">
+        <img src="./netflix (2).png" alt="">
+
+        <div>
+            <select class="sel" name="" id="">
+                <option value="">English</option>
+                <option value="">Hindi</option>
+                <option value="">Tamil</option>
+            </select>
+
+
+            <button class="btn">Sign In</button>
+        </div>
+
+
+    </div>
+
+    <div class="tex">
+        <h1>Unlimited movies,TV <br> shows and more.</h1><br>
+        <h3>Watch anywere.Cancal anytime</h3><br>
+        <p>Ready to watch?Enter your email to create or restart your membership.</p>
+    </div>
+
+    <div class="emg">
+        <input class="add" type="email" placeholder="Email address">
+        <!-- <button class="bt">Get Started ></button> -->
+        <a href="">
+            <div class="bt">Get Started ></div>
+        </a>
+    </div>
+
+    <div class="div1">
+        <div class="div2">
+            <h1> Enjoy on your TV.</h1><br>
+            <p>Watch on smart TVs, PlayStation, <br> Xbox, Chromecast, Apple TV, Blu-ray <br> players and more.</p>
+        </div>
+        <div class="div3">
+            <img height="350px" src="./tv.png" alt="">
+            <video loop autoplay height="200px" class="di"
+                src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-tv-in-0819.m4v"></video>
+        </div>
+    </div>
+
+    <div class="div4">
+        <div>
+            <img height="400px"  src="./mobile-0819.jpg" alt="">
+        </div>
+        <!-- <img src="./boxshot.png" alt=""> -->
+        <div class="div5">
+            <h1>Download your shows to watch offline.</h1><br>
+            <p>Save your favourites easily and always have <br> something to watch.</p><br><br><br><br>
+        </div>
+    </div>
+
+    <div class="div6">
+        <div class="div7">
+            <h1 class="text">Watch everywhere.</h1><br>
+            <p class="text">Stream unlimited movies and TV shows on <br> your phone, tablet, laptop, and TV.</p>
+        </div>
+        <div>
+            <img height="390px" src="./device-pile-in.png" class="img3" alt="">.
+            <video loop autoplay class="di2" src="https://assets.nflxext.com/ffe/siteui/acquisition/ourStory/fuji/desktop/video-devices-in.m4v"></video>
+        </div>
+    </div>
+
+    <div class="div6">
+        <div>
+            <img height="400px" src="./abc.png" alt="">
+        </div>
+        <div class="div7">
+            <h1>Create profiles for <br> children.</h1><br>
+            <p>Send children on adventures with their <br> favourite characters in a space made just for <br> them—free
+                with your membership</p>
+        </div>
+    </div>
+
+
+</body>
+
+</html>

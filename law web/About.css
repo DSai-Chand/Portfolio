@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+}
+
+/* navbar desing */
+.navbar{
+    background-color: #58614E;
+    display: flex;
+    align-items: center ;
+    justify-content: space-evenly;
+    padding: 40px;
+    
+}
+.nav-link{
+    color: white;
+    margin-left: 20px;
+    font-size: 14px;
+    
+}
+
+.body{
+      margin-top: 20px;
+      margin-left: 250px;     
+}
+
+.body2{
+    margin-top: 10px;
+    margin-left: 250px;
+    margin-right: 355px;
+    box-shadow: inset 0px 0px 101px grey;
+}
+
+
+.body3, .body4, .body5, .body6, .body7{
+    margin-top: 20px;
+    margin-left: 250px ;
+    font-size: 15px;
+    
+}
+.body7 p{
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+.footer{
+    padding-top: 10px;
+    background-color: #D9D9D9;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+    margin-top: 5px;
+    padding-left: 50px;
+}
+.footer-inner1{
+    display: flex;
+}
+.footer1{
+padding: 10px;
+margin-top: 30px;
+width: 400px;
+margin-left: 50px;
+border-right: 2px dotted grey;
+}
+
+.footer2{
+padding: 10px;
+margin-top: 30px;
+width: 400px;
+border-right: 2px dotted grey;
+}
+
+.footer3{
+    padding: 40px;
+    margin-top: 30px
+    margin-left: 200px;
+    width: 400px;
+}
+
+.btn1{
+    background-color: grey;
+    color: white;
+    padding: 5px;
+    margin-top: 30px;
+    margin-left: 5px;
+   border: none;
+   display: block;
+   text-align: center;
+   text-decoration: none;
+   width: 250px;
+}
+
+.footer-inner{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #4F5843;
+    padding: 20px;
+    color: white;
+   
+
+}
+
+.socialmedia img{
+    width: 15px;
+    border-radius: 5px;
+
+}
